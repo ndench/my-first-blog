@@ -3,6 +3,14 @@
         <title>Yep It's My Blog</title>
     </head>
     <body>
-        <h2>Go Fuck Yourself</h2>
+        <h1><a href="">Yep It's My Blog</a></h1>
+        {% for post in posts %}
+            <div>
+                <p>published: {{ post.published_date  }}</p>
+                <h1><a href="">{{ post.title }}</a></h1>
+                <p>{{ post.text|linebreaksbr  }}</p>
+            </div>
+            {{ post }}
+        {% endfor %}
     </body>
 </html>
