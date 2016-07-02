@@ -24,13 +24,12 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
 }
 
 .date {
     color: #828282;
     float: right;
-    margin-right: 5px;
 }
 
 .save {
@@ -58,4 +57,9 @@ h1, h2, h3, h4 {
 
 .post a.btn {
     float: right;
+    margin-left: 5px;
+}
+
+.comment {
+    margin: 20px 0px 20px 20px;
 }
